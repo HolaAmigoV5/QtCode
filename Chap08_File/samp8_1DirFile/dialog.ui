@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="0">
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QToolBox" name="toolBox">
+         <property name="currentIndex">
+          <number>6</number>
+         </property>
+         <widget class="QWidget" name="pageApp">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>262</width>
+            <height>460</height>
+           </rect>
+          </property>
+          <attribute name="icon">
+           <iconset resource="res.qrc">
+            <normaloff>:/images/802.bmp</normaloff>:/images/802.bmp</iconset>
+          </attribute>
+          <attribute name="label">
+           <string>QCoreApplication类</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QPushButton" name="btnApplication">
+             <property name="font">
+              <font>
+               <pointsize>18</pointsize>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>QCoreApplication::
+ applicationDirPath() 
+applicationFilePath() 
+ applicationName() 
+ setApplicationName() 
+ libraryPaths() 
+ organizationName() 
+ exit() 退出应用程序</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageFile">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>262</width>
+            <height>460</height>
+           </rect>
+          </property>
+          <attribute name="icon">
+           <iconset resource="res.qrc">
+            <normaloff>:/images/804.bmp</normaloff>:/images/804.bmp</iconset>
+          </attribute>
+          <attribute name="label">
+           <string>QFile类</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QGroupBox" name="groupBox_4">
+               <property name="title">
+                <string>静态函数</string>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_2">
+                <item row="0" column="0">
+                 <widget class="QPushButton" name="btnCopy">
+                  <property name="text">
+                   <string>copy()</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QPushButton" name="btnExists">
+                  <property name="text">
+                   <string>exists()</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QPushButton" name="btnMoveToTrash">
+                  <property name="text">
+                   <string>moveToTrash</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QPushButton" name="btnRemove">
+                  <property name="text">
+                   <string>remove()</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QPushButton" name="btnRename">
+                  <property name="text">
+                   <string>rename()</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_5">
+               <property name="title">
+                <string>成员函数</string>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_3">
+                <item row="0" column="0">
+                 <widget class="QPushButton" name="btnMemberCopy">
+                  <property name="text">
+                   <string>copy()</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QPushButton" name="btnMemberExists">
+                  <property name="text">
+                   <string>exists()</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QPushButton" name="btnMemRemove">
+                  <property name="text">
+                   <string>remove()</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QPushButton" name="btnMemRename">
+                  <property name="text">
+                   <string>rename()</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QPushButton" name="btnMemMoveToTrash">
+                  <property name="text">
+                   <string>moveToTrash</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageFileInfo">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>262</width>
+            <height>460</height>
+           </rect>
+          </property>
+          <attribute name="icon">
+           <iconset resource="res.qrc">
+            <normaloff>:/images/135.JPG</normaloff>:/images/135.JPG</iconset>
+          </attribute>
+          <attribute name="label">
+           <string>QFileInfo类</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="0">
+            <widget class="QPushButton" name="btnAbsoluteFilePath">
+             <property name="text">
+              <string>absoluteFilePath() 
+ absolutePath() 
+ fileName() 
+ filePath() 
+ size()  path() 
+ baseName() 
+ completeBaseName() 
+ suffix() 
+ completeSuffix() 
+ isDir() 
+ isFile() 
+ isExecutable() 
+ birthTime() 
+ LastModified() 
+ lastRead() 
+ Static exists() 
+ exists()</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageDir">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>262</width>
+            <height>460</height>
+           </rect>
+          </property>
+          <attribute name="icon">
+           <iconset resource="res.qrc">
+            <normaloff>:/images/007.GIF</normaloff>:/images/007.GIF</iconset>
+          </attribute>
+          <attribute name="label">
+           <string>QDir类</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QGroupBox" name="groupBox_6">
+             <property name="title">
+              <string>静态函数</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QPushButton" name="btntempPath">
+                <property name="text">
+                 <string>tempPath() 
+ rootPath() 
+ homePath() 
+ drives() 
+ currentPath()</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnSetCurrent">
+                <property name="text">
+                 <string>setCurrent</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_7">
+             <property name="title">
+              <string>文件或目录操作</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_6">
+              <item row="0" column="0">
+               <widget class="QPushButton" name="btnMkdir">
+                <property name="text">
+                 <string>mkdir()</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QPushButton" name="btnRmdir">
+                <property name="text">
+                 <string>rmdir()</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QPushButton" name="btnQDirRemove">
+                <property name="text">
+                 <string>remove()</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QPushButton" name="btnQDirRename">
+                <property name="text">
+                 <string>rename()</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QPushButton" name="btnSetPath">
+                <property name="text">
+                 <string>setPath()</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QPushButton" name="btnRemoveRecur">
+                <property name="text">
+                 <string>removeRecursively()</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_8">
+             <property name="title">
+              <string>文件或目录信息</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <item>
+               <widget class="QPushButton" name="btnAbsPath">
+                <property name="text">
+                 <string>absoluteFilePath() 
+ absolutePath() 
+ canonicalPath() 
+ filePath() 
+ path() 
+ dirName() 
+ exists() 
+ isEmpty() 
+ entryList(dir) 
+ entryList(file)</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageTempDir">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>262</width>
+            <height>460</height>
+           </rect>
+          </property>
+          <attribute name="icon">
+           <iconset resource="res.qrc">
+            <normaloff>:/images/806.bmp</normaloff>:/images/806.bmp</iconset>
+          </attribute>
+          <attribute name="label">
+           <string>QTemporaryDir类</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <item>
+            <widget class="QGroupBox" name="groupBox_9">
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <widget class="QPushButton" name="btnMkTempDir">
+                <property name="text">
+                 <string>1. 在系统临时目录下创建临时文件夹</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnMkDir">
+                <property name="text">
+                 <string>2. 在指定目录下创建临时文件夹</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnMkDirInCurrent">
+                <property name="text">
+                 <string>3. 在当前目录下创建临时文件夹</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageTempFile">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>262</width>
+            <height>460</height>
+           </rect>
+          </property>
+          <attribute name="icon">
+           <iconset resource="res.qrc">
+            <normaloff>:/images/100.bmp</normaloff>:/images/100.bmp</iconset>
+          </attribute>
+          <attribute name="label">
+           <string>QTemporaryFile类</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <item>
+            <widget class="QGroupBox" name="groupBox_10">
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_12">
+              <item>
+               <widget class="QPushButton" name="btnMkTempFile">
+                <property name="text">
+                 <string>1. 在系统临时目录下创建临时文件</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnMkFile">
+                <property name="text">
+                 <string>2. 在指定目录下创建临时文件</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnMkFileInCurrent">
+                <property name="text">
+                 <string>3. 在当前目录下创建临时文件</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageWatcher">
+          <attribute name="label">
+           <string>QFileSystemWatcher类</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_13">
+           <item>
+            <widget class="QGroupBox" name="groupBox_11">
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_14">
+              <item>
+               <widget class="QPushButton" name="btnAddPath">
+                <property name="text">
+                 <string>addPath()并开始监视</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnRemovePath">
+                <property name="text">
+                 <string>removePath()并停止监视</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnDirectory">
+                <property name="text">
+                 <string>directories()</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnFiles">
+                <property name="text">
+                 <string>files</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="btnOpenFile">
+            <property name="text">
+             <string>打开文件</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/images/007.GIF</normaloff>:/images/007.GIF</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnOpenDir">
+            <property name="text">
+             <string>打开目录</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/images/122.bmp</normaloff>:/images/122.bmp</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnClear">
+            <property name="text">
+             <string>清除文本框</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/images/212.bmp</normaloff>:/images/212.bmp</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>文件</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="editFile"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>目录</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="editDir"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>信息</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QPlainTextEdit" name="plainTextEdit"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
